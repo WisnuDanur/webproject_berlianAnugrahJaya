@@ -20,11 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('user/home_user');
 	}
 
-	public function Danur()
-	{
-		echo "Kusuma";
-	}
 }
